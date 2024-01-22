@@ -1,0 +1,466 @@
+/* ===========================*** DEVT:[A-101] ***=========================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --menu-hover: #c9c9c9;
+    --theme-color: #004d96;
+    --footer-color: #00021c;
+    --footer-hover: #007bff;
+}
+
+@media(max-width: 768px) {
+    .header-top {
+        display: none;
+    }
+    .main-header {
+        display: none;
+    }
+    /*=============================== mobile navbar css start ===============================*/
+    .nav-mobile {
+        height: 0px;
+        z-index: 999;
+        position: relative;
+        display: block;
+    }
+    .nav-mobile-lower li a {
+        text-decoration: none;
+        color: #fff;
+        font-family: "Jost";
+        font-weight: 400;
+        font-size: 14px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .nav-mobile-upper {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 2rem;
+        background-color: var(--theme-color);
+    }
+    .nav-mobile-upper div img {
+        width: 20%;
+        height: auto;
+    }
+    .nav-mobile-lower {
+        margin-top: -5px;
+        background-color: var(--theme-color);
+        /* transition-duration: 300ms; */
+       transition: all .5s ease-out;
+        position: relative;
+        z-index: 1000;
+        border-top: 1px solid #fff;
+    }
+    .nav-mobile-lower ul {
+        padding: 0;
+    }
+    .nav-mobile-lower ul li {
+        list-style: none;
+        text-align: left;
+        padding: 10px;
+        color: var(--white);
+        background-color: var(--theme-color);
+        border: 1px solid var(--white);
+    }
+    .nav-mobile-lower ul li:hover {
+        list-style: none;
+        text-align: left;
+        padding: 10px;
+        color: var(--white);
+        background-color: var(--footer-hover);
+        border: 1px solid var(--white);
+    }
+    .nav-button {
+        padding: 0 0 30px 10px;
+    }
+    .translateCss {
+        transform: translateY(-100rem);
+    }
+    .bar {
+        display: block;
+        width: 30px;
+        height: 4px;
+        background-color: var(--white);
+        margin: 5px 0;
+    }
+    .ham-img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .bar:nth-child(1) {
+        transition-duration: 300ms;
+    }
+    .bar:nth-child(3) {
+        transition-duration: 300ms;
+    }
+    .header-call {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 0 0 15px 10px;
+    }
+    /*=============================== /mobile navbar css end ===============================*/
+
+    /*=============================== Home css start ===============================*/
+    .main-banner-secrion {
+        position: relative;
+        padding-top: 60px;
+    }
+    .carousel-caption-title-01 h1 {
+        font-size: 20px;
+    }
+    .main-banner-secrion .carousel-item .carousel-caption {
+        position: absolute;
+        left: 100px;
+        bottom: 0;
+    }
+    .carousel-caption-title-02 {
+        display: none;
+    }
+    .carousel-caption-button a {
+        font-size: 11px;
+        padding: 5px 5px;
+    }
+    .main-about-body {
+        flex-direction: column;
+        width: 100%;
+    }
+    .main-about-content h2 {
+        width: 100%;
+    }
+    .choose-us {
+        width: 100%;
+        flex-direction: column;
+    }
+    .appointment-body {
+        flex-direction: column;
+    }
+    .appointment-img img {
+        height: 300px;
+        object-fit: cover;
+    }
+    .appointment-content-side-img img {
+        height: 300px;
+        object-fit: cover;
+    }
+    .appointment-content-side-body .content-01 {
+        width: 100%;
+    }
+    .appointment-content-side-body .content-02 {
+        width: 100%;
+    }
+    .our-blog-container {
+        width: 100%;
+    }
+    .main-blog-section .blog-body-02 {
+        flex-direction: column;
+    }
+    .main-blog-section .blog-img-02 img {
+        width: 100%;
+    }
+    .blog-img-02 {
+        width: 100%;
+    }
+    .footer-main-div {
+        width: 100%;
+        flex-direction: column;
+    }
+    .footer-about-us p {
+        width: 100%;
+    }
+    .recent-post-body {
+        gap: 20px;
+    }
+    .recent-post-body a {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .post-content .comment {
+        width: 100%;
+    }
+    .footer-bottom {
+        width: 100%;
+        flex-direction: column;
+    }
+    /*=============================== /Home css end ===============================*/
+
+    /*=============================== Inner About page css start ===============================*/
+    .inner-banner-img img {
+        height: 250px;
+    }
+    .inner-page-title h2 {
+        font-size: 24px;
+    }
+    .inr-main-about-section .image-column .image-2 img, .inr-main-about-section .image-column .image-1 img {
+        width: 100%;
+    }
+    .inr-main-about-section .content-column .inner-column {
+        position: relative;
+        padding: 100px 0 0 0;
+    }
+    /*=============================== /Inner About page css end ===============================*/
+
+    /*=============================== Inner Products page css start ===============================*/
+    .main-inr-products-section .inr-product-card {
+        flex-direction: column;
+    }
+    .main-inr-products-section .inr-product-card .inr-product-img img {
+        height: 335px;
+        width: 100%;
+    }
+    /*=============================== /Inner Products page css end ===============================*/
+
+    /*=============================== Inner Blog Details page css start ===============================*/
+    .main-blog-details-section {
+        padding: 50px 0;
+    }
+    /*=============================== /Inner Blog Details page css end ===============================*/
+
+    /*=============================== Contact page css start ===============================*/
+    .contact {
+        flex-direction: column;
+    }
+    .contact-form {
+        width: 100%;
+        padding: 10px;
+    }
+    /*=============================== /Contact page css end ===============================*/
+}
+
+@media(min-width: 769px) and (max-width: 992px) {
+    .header-top {
+        display: none;
+    }
+    .main-header {
+        display: none;
+    }
+    /*=============================== mobile navbar css start ===============================*/
+    .nav-mobile {
+        height: 0px;
+        z-index: 999;
+        position: relative;
+        display: block;
+    }
+    .nav-mobile-lower li a {
+        text-decoration: none;
+        color: #fff;
+        font-family: "Jost";
+        font-weight: 400;
+        font-size: 14px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .nav-mobile-upper {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 2rem;
+        background-color: var(--theme-color);
+    }
+    .nav-mobile-upper div img {
+        width: 20%;
+        height: auto;
+    }
+    .nav-mobile-lower {
+        margin-top: -5px;
+        background-color: var(--theme-color);
+        /* transition-duration: 300ms; */
+       transition: all .5s ease-out;
+        position: relative;
+        z-index: 1000;
+        border-top: 1px solid #fff;
+    }
+    .nav-mobile-lower ul {
+        padding: 0;
+    }
+    .nav-mobile-lower ul li {
+        list-style: none;
+        text-align: left;
+        padding: 10px;
+        color: var(--white);
+        background-color: var(--theme-color);
+        border: 1px solid var(--white);
+    }
+    .nav-mobile-lower ul li:hover {
+        list-style: none;
+        text-align: left;
+        padding: 10px;
+        color: var(--white);
+        background-color: var(--footer-hover);
+        border: 1px solid var(--white);
+    }
+    .nav-button {
+        padding: 0 0 30px 10px;
+    }
+    .translateCss {
+        transform: translateY(-100rem);
+    }
+    .bar {
+        display: block;
+        width: 30px;
+        height: 4px;
+        background-color: var(--white);
+        margin: 5px 0;
+    }
+    .ham-img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .bar:nth-child(1) {
+        transition-duration: 300ms;
+    }
+    .bar:nth-child(3) {
+        transition-duration: 300ms;
+    }
+    .header-call {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 0 0 15px 10px;
+    }
+    /*=============================== /mobile navbar css end ===============================*/
+
+    /*=============================== Home-page css start ===============================*/
+    .carousel-caption-title-02 {
+        display: none;
+    }
+    .main-banner-secrion .carousel-item .carousel-caption {
+        bottom: 40px;
+    }
+    .carousel-caption-title-01 h1 {
+        font-size: 26px;
+    }
+    .main-about-body {
+        width: 100%;
+        flex-direction: column;
+    }
+    .main-about-content h2 {
+        width: 100%;
+    }
+    .service-card .service-card-img img {
+        height: 450px;
+        object-fit: cover;
+    }
+    .choose-us {
+        width: 100%;
+        flex-direction: column;
+    }
+    .appointment-img img {
+        object-fit: cover;
+    }
+    .our-blog-container {
+        width: 100%;
+    }
+    .main-blog-section .blog-img-01 img {
+        height: 400px;
+    }
+    .main-blog-section .blog-img-03 img {
+        height: 400px;
+    }
+    .footer-main-div {
+        width: 100%;
+        flex-direction: column;
+    }
+    .footer-about-us p {
+        width: 100%;
+    }
+    .recent-post-body {
+        align-items: flex-start;
+    }
+    .post-content .comment {
+        width: 100%;
+    }
+    .footer-bottom {
+        width: 100%;
+    }
+    /*=============================== /Home-page css end ===============================*/
+}
+
+@media(min-width: 993px) and (max-width: 1365px) {
+    .menu-bar ul {
+        gap: 10px;
+    }
+    .menu-bar ul li a {
+        font-size: 11px;
+    }
+    .header-call a {
+        font-size: 11px;
+        padding: 3px 5px;
+    }
+    .carousel-caption-title-02 {
+        display: none;
+    }
+    .main-about-content h2 {
+        font-size: 14px;
+    }
+    .main-about-content .about-title-02 {
+        font-size: 13px;
+    }
+    .main-about-content .about-title-03 {
+        font-size: 11px;
+    }
+    .about-read-more-button a {
+        font-size: 11px;
+        padding: 5px 15px;
+    }
+    .services-title-01 p {
+        font-size: 11px;
+    }
+    .services-title-02 p {
+        font-size: 16px;
+    }
+    .service-card .service-card-body .service-title-01 {
+        font-size: 16px;
+    }
+    .service-card .service-card-body .service-title-02 {
+        font-size: 11px;
+    }
+    .service-card .service-card-body .service-body-button a {
+        font-size: 11px;
+        padding: 5px 15px;
+    }
+    .choose-us-title-01 p {
+        font-size: 11px;
+    }
+    .choose-us-title-02 {
+        font-size: 16px;
+    }
+    .choose-us-body p {
+        font-size: 11px;
+    }
+    .choose-us-read-more-buton a {
+        font-size: 11px;
+        padding: 5px 15px;
+    }
+    .appointment-content-side-body .content-01 {
+        font-size: 16px;
+        width: 20vw;
+    }
+    .appointment-content-button a {
+        font-size: 11px;
+        padding: 5px 15px;
+    }
+    .main-blog-section .blog-comments-01 .blog-comments-title-01 {
+        font-size: 11px;
+    }
+    .main-blog-section .blog-body-02 {
+        flex-direction: column;
+        align-items: normal;
+    }
+    .main-blog-section .blog-img-02 img {
+        width: 100%;
+    }
+}
+
+
+
+@media(min-width:1550px){
+    .main-banner-secrion .carousel-item .carousel-caption {
+        left: calc((100vw - 1320px)/2);
+    }
+}

@@ -1,0 +1,1044 @@
+/* ===========================*** DEVT:[A-101] ***=========================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --menu-hover: #c9c9c9;
+    --theme-color: #004d96;
+    --footer-color: #00021c;
+    --footer-hover: #007bff;
+}
+
+/* ============================== inner banner area start=============================*/
+.main-inner-banner-section {
+    position: relative;
+}
+.inner-banner-img img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+}
+.inner-banner-img::before {
+    content: "";
+    background-color: #0000009e;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.inner-page-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+}
+.inner-page-title h2 {
+    font-family: 'Frank Ruhl Libre';
+    font-size: 34px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--white);
+}
+/* ============================== /inner banner area end=============================*/
+
+/* ============================== inner about area start=============================*/
+.inr-main-about-section{
+    position: relative;
+    padding: 150px 0;
+} 
+.inr-main-about-section .sec-title{
+    margin-bottom: 15px;
+}
+.inr-main-about-section .sec-title span {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.inr-main-about-section .sec-title h2 {
+    font-family: 'Frank Ruhl Libre';
+    font-weight: 700;
+    font-size: 28px;
+}
+.inr-main-about-section .inner-column p {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 13px;
+}
+.inr-main-about-section .content-column{
+    position: relative;
+    margin-bottom: 50px;
+} 
+.inr-main-about-section .content-column .inner-column{
+    position: relative;
+    padding-left: 30px;
+} 
+.inr-main-about-section .list-style-one{
+    margin-bottom: 45px;
+} 
+.inr-main-about-section .btn-box{
+    position: relative;
+}  
+.inr-main-about-section .btn-box a{
+    padding: 15px 50px;
+} 
+.inr-main-about-section .image-column{
+    position: relative;
+} 
+.inr-main-about-section .image-column .text-layer{
+    position: absolute;
+    right: -110px;
+    top: 50%;
+    font-size: 325px;
+    line-height: 1em;
+    color: #FFFFFF;
+    margin-top: -175px;
+    font-weight: 500;
+} 
+.inr-main-about-section .image-column .inner-column{
+    position: relative;
+    padding-left: 80px;
+    padding-bottom: 0px;
+}
+.inr-main-about-section .image-column .inner-column .author-desc{
+    position: absolute;
+    bottom: 16px;
+    z-index: 1;
+    background: var(--footer-hover);
+    padding: 10px 15px;
+    left: 96px;
+    width: calc(100% - 152px);
+    border-radius: 50px;
+}
+.inr-main-about-section .image-column .inner-column .author-desc h2{
+    font-size: 21px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: 'Poppins';
+    color: #FFFFFF;
+    margin: 0;
+}
+.inr-main-about-section .image-column .inner-column .author-desc span{
+    font-size: 16px;
+    letter-spacing: 6px;
+    text-align: center;
+    font-family: 'Poppins';
+    color: #FFFFFF;
+    display: block;
+    font-weight: 400;
+}
+.inr-main-about-section .image-column .inner-column:before{
+    content: '';
+    position: absolute;
+    width: calc(50% + 80px);
+    height: calc(100% + 160px);
+    top: -80px;
+    left: -3px;
+    background: transparent;
+    z-index: 0;
+    border: 44px solid var(--theme-color);
+}
+  
+.inr-main-about-section .image-column .image-1{
+    position: relative;
+}
+.inr-main-about-section .image-column .image-2{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.inr-main-about-section .image-column .image-2 img,
+.inr-main-about-section .image-column .image-1 img{
+    box-shadow: 0 30px 50px rgba(8,13,62,.15);
+    border-radius: 46px;
+}
+/* ============================== /inner about css end=============================*/ 
+
+/* ============================== inner services area start=============================*/
+.main-inr-services-section {
+    position: relative;
+    padding: 50px 0;
+}
+.inr-service-card {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.inr-service-card .inr-service-img img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.inr-service-card .inr-service-content {
+    padding: 10px;
+    height: 180px;
+}
+.inr-service-card .inr-service-content a {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--black);
+    transition: all .3s ease;
+}
+.inr-service-card .inr-service-content a:hover {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--theme-color);
+}
+.inr-service-card .inr-service-content .inr-service-content-para {
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--black);
+    padding-top: 10px;
+}
+.inr-service-card .inr-service-button {
+    padding: 10px 10px 20px 10px;
+}
+.inr-service-card .inr-service-button a {
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--white);
+    background-color: var(--theme-color);
+    border: 1px solid var(--theme-color);
+    padding: 8px 25px;
+    border-radius: 5px;
+    transition: all .3s ease;
+}
+.inr-service-card .inr-service-button a:hover {
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--white);
+    background-color: var(--footer-hover);
+    border: 1px solid var(--footer-hover);
+    padding: 8px 25px;
+    border-radius: 5px;
+}
+/* ============================== /inner services area end=============================*/
+
+/* ============================== inner service-details area start=============================*/
+.main-inr-service-details-section {
+    position: relative;
+    padding: 50px 0;
+}
+.main-inr-service-details-section .inr-service-details-img {
+    box-shadow: rgba(110, 122, 139, 0.4) -5px 5px, rgba(112, 128, 172, 0.3) -10px 10px, rgba(67, 78, 129, 0.2) -15px 15px, rgba(74, 92, 150, 0.1) -20px 20px, rgba(74, 110, 151, 0.05) -25px 25px;
+}
+.main-inr-service-details-section .inr-service-details-img img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.main-inr-service-details-section .inr-service-details-content {
+    padding: 20px 0;
+}
+.main-inr-service-details-section .inr-service-details-content h2 {
+    font-family: 'Frank Ruhl Libre';
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--black);
+}
+.main-inr-service-details-section .inr-service-details-content p {
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--black);
+}
+.main-inr-service-details-section .inr-service-details-content ul {
+    list-style: square;
+}
+.main-inr-service-details-section .inr-service-details-content ul li {
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--black);
+}
+.main-inr-service-details-section .inr-service-details-button a {
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--white);
+    background-color: var(--theme-color);
+    border: 1px solid var(--theme-color);
+    padding: 10px 25px;
+    border-radius: 5px;
+    transition: all .3s ease;
+}
+.main-inr-service-details-section .inr-service-details-button a:hover {
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--white);
+    background-color: var(--footer-hover);
+    border: 1px solid var(--footer-hover);
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+/* ============================== /inner service-details area end=============================*/
+
+/* ============================== inner products area start=============================*/
+.main-inr-products-section {
+    position: relative;
+    padding: 50px 0;
+}
+.main-inr-products-section .inr-product-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    box-shadow: rgb(155 184 255 / 2%) 0px 1px 3px 0px, rgb(0 127 255 / 15%) 0px 0px 0px 1px;
+    padding: 10px;
+    background-color: #1d3c5f12;
+}
+.main-inr-products-section .inr-product-card .inr-product-img img {
+    width: 215px;
+    height: 200px;
+    object-fit: cover;
+}
+.main-inr-products-section .inr-product-details .details-title-01 {
+    font-family: 'Frank Ruhl Libre';
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--black);
+}
+.main-inr-products-section .inr-product-details .details-title-02 {
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--black);
+}
+.main-inr-products-section .inr-product-buy-button {
+    padding-top: 20px;
+}
+.main-inr-products-section .inr-product-buy-button a {
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--white);
+    background-color: var(--theme-color);
+    border: 1px solid var(--theme-color);
+    padding: 10px 25px;
+    border-radius: 5px;
+    transition: all .3s ease;
+}
+.main-inr-products-section .inr-product-buy-button a:hover {
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--white);
+    background-color: var(--footer-hover);
+    border: 1px solid var(--footer-hover);
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+/* ============================== /inner products area end=============================*/
+
+/* ============================== inner certification area start=============================*/
+.main-inr-certification-section {
+    position: relative;
+    padding: 50px 0;
+}
+.certification-body .certification-01 {
+    font-family: 'Frank Ruhl Libre';
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--black);
+}
+.certification-body ul li {
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--black);
+}
+/* ============================== /inner certification area end=============================*/
+
+/* ===================*** inner-blog area css start ***===================== */
+.inr-blogs-section {
+    position: relative;
+    padding: 50px 0;
+}
+.inr-blogs-card {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.inr-blogs-card-img img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.inr-blogs-card-body {
+    padding: 20px;
+}
+.inr-blogs-card-body a {
+    font-family: 'Frank Ruhl Libre';
+    font-weight: 700;
+    font-size: 20px;
+    height: 100px;
+    color: var(--black);
+    transition: all .3s ease;
+}
+.inr-blogs-card-body a:hover {
+    font-family: 'Frank Ruhl Libre';
+    font-weight: 700;
+    font-size: 20px;
+    height: 100px;
+    color: var(--theme-color);
+}
+.inr-blogs-card-body p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 13px;
+    height: 150px;
+}
+.inr-blogs-card-button {
+    padding: 20px;
+}
+.inr-blogs-card-button a {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 13px;
+    color: var(--white);
+    background-color: var(--theme-color);
+    border: 1px solid var(--theme-color);
+    padding: 10px 35px;
+    border-radius: 5px;
+    transition: all .5s ease;
+}
+.inr-blogs-card-button a:hover {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 13px;
+    color: var(--white);
+    background-color: var(--footer-hover);
+    border: 1px solid var(--footer-hover);
+    padding: 10px 35px;
+    border-radius: 5px;
+}
+/* ===================*** /inner-blog area css end ***===================== */
+
+/* ==================*** inner-blog-details page css start ***==================== */
+.main-blog-details-section {
+    position: relative;
+    padding: 50px;
+}
+.blog-left-details {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.blog-left-details .blog-details-photo img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.blog-left-details .blog-details-content {
+    padding: 20px;
+}
+.blog-left-details .blog-details-content h2 {
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+.blog-details-content p {
+    font-size: 13px;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+.latest-post-aside {
+    display: flex;
+    align-items: flex-start;
+    border-top: 1px solid #e8e8e8;
+    padding: 10px 0 10px 0;
+}
+.lpa-title h5 a {
+    text-decoration: none;
+    font-size: 13px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: var(--black);
+    transition: all .3s ease;
+}
+.lpa-title h5 a:hover {
+    text-decoration: none;
+    font-size: 13px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: var(--theme-color);
+}
+.widget-title h3 {
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.widget.widget-latest-post {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    padding: 20px;
+}
+.lpa-right a img {
+    width: 80px;
+    height: 65px;
+    object-fit: cover;
+}
+.lpa-meta {
+    display: inline-flex;
+}
+.lpa-meta a {
+    font-family: 'Poppins';
+    color: var(--black);
+    font-size: 11px;
+    text-transform: uppercase;
+    margin-right: 10px;
+    text-decoration: none;
+    font-weight: 500;
+}
+/* ---------- search box -------- */
+.i-blog-search {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    padding: 20px 20px 35px 20px;
+    margin-bottom: 20px;
+}
+.i-blog-search h2 {
+    font-family: 'Poppins';
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.search-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-box input {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid var(--theme-color);
+}
+.search-box input:focus-visible {
+    outline: none;
+}
+.search-box .search-button button {
+    padding: 7px;
+    width: 50px;
+    border: none;
+    background-color: var(--theme-color);
+    color: var(--white);
+}
+/* ---------- search box -------- */
+/* ==================*** /inner-blog-details page css end ***==================== */
+
+/* ==================*** inner-appointment css start ***==================== */
+.main-inr-appointment-section {
+    position: relative;
+    padding: 50px 0;
+}
+.appointment-form .appointment-notice {
+    font-family: 'Frank Ruhl Libre';
+    font-size: 16px;
+    font-weight: 700;
+}
+.appointment-form .label-input {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+.appointment-form .label-input {
+    padding: 5px 0;
+}
+.appointment-form .label-input label {
+    width: 15%;
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 500;
+}
+.appointment-form .label-input label span {
+    color: rgb(255, 0, 0);
+}
+.appointment-form .label-input input {
+    width: 80%;
+    padding: 5px;
+    border: 1px solid var(--theme-color);
+    border-radius: 3px;
+}
+.appointment-form .label-input input:focus-visible {
+    outline: none;
+    border: 1px solid var(--footer-hover);
+}
+.appointment-form .label-textarea {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+.appointment-form .label-textarea label {
+    width: 15%;
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 500;
+}
+.appointment-form .label-textarea textarea {
+    width: 80%;
+    padding: 5px;
+    border: 1px solid var(--theme-color);
+    border-radius: 3px;
+}
+.appointment-form .label-textarea textarea:focus-visible {
+    outline: none;
+    border: 1px solid var(--footer-hover);
+}
+.appointment-form .form-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+}
+.appointment-form .form-button .submit-button {
+    color: var(--white);
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 500;
+    border: 1px solid var(--theme-color);
+    background-color: var(--theme-color);
+    padding: 10px 35px;
+    border-radius: 3px;
+    transition: all .3s ease;
+}
+.appointment-form .form-button .submit-button:hover {
+    color: var(--white);
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 500;
+    border: 1px solid var(--footer-hover);
+    background-color: var(--footer-hover);
+    padding: 10px 35px;
+    border-radius: 3px;
+}
+.appointment-form .form-button .cancel-button {
+    color: var(--white);
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 500;
+    border: 1px solid #aa0000;
+    background-color: #aa0000;
+    padding: 10px 35px;
+    border-radius: 3px;
+    transition: all .3s ease;
+}
+.appointment-form .form-button .cancel-button:hover {
+    color: var(--white);
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 500;
+    border: 1px solid #ff0000;
+    background-color: #ff0000;
+    padding: 10px 35px;
+    border-radius: 3px;
+}
+/* ==================*** /inner-appointment css end ***==================== */
+
+/* ==================*** inner-contact us page css start ***==================== */
+.inr-centect-section {
+    position: relative;
+    padding: 50px 0;
+}
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.contact-details h2 {
+    font-family: 'Frank Ruhl Libre';
+    font-weight: 700;
+    font-size: 30px;
+}
+.contact-details p {
+    font-family: 'Frank Ruhl Libre';
+    font-weight: 700;
+    font-size: 20px;
+}
+.contact-details p i{
+    color: var(--theme-color);
+}
+.contact-details p a {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--black);
+}
+.contact-form {
+    width: 60%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    padding: 35px;
+}
+.contact-form .text-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--theme-color);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: all .5s ease;
+}
+.contact-form .text-input:focus-visible {
+    border: 1px solid var(--footer-hover);
+    outline: none;
+}
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--theme-color);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: all .5s ease;
+}
+.contact-form textarea:focus-visible {
+    border: 1px solid var(--footer-hover);
+    outline: none;
+}
+.contact-form-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-form-button .submit-input {
+    border: 1px solid var(--theme-color);
+    background-color: var(--theme-color);
+    color: var(--white);
+    padding: 12px 65px;
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 400;
+    border-radius: 5px;
+    transition: all .5s ease;
+}
+.contact-form-button .submit-input:hover {
+    border: 1px solid var(--footer-hover);
+    background-color: var(--footer-hover);
+    color: var(--white);
+    padding: 12px 65px;
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 400;
+    border-radius: 5px;
+}
+/* ==================*** /inner-contact us page css end ***==================== */
+
+/* ==================*** inner-icbc page css start ***==================== */
+.inr-icbc-section {
+    position: relative;
+    padding: 50px 0;
+}
+.icbc-card {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+}
+.icbc-card .icbc-img img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.icbc-card .icbc-body h2 a {
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--banner-button-background);
+    transition: all .5s ease;
+}
+.icbc-card .icbc-body h2 a:hover {
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--black);
+}
+.icbc-card .icbc-body p {
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 500;
+}
+.icbc-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icbc-button a {
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--white);
+    background-color: var(--banner-button-background);
+    border: 1px solid var(--banner-button-background);
+    padding: 10px 50px;
+    transition: all .5s ease;
+}
+.icbc-button a:hover {
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--banner-button-background);
+    background-color: transparent;
+    border: 1px solid var(--banner-button-background);
+    padding: 10px 50px;
+}
+/* ==================*** /inner-icbc page css end ***==================== */
+
+/* ==================*** inner-courses page css start ***==================== */
+.inr-courses-section {
+    position: relative;
+    padding: 50px 0;
+}
+.courses {
+    padding-bottom: 20px;
+    transition: all .5s ease;
+}
+.courses:hover {
+    padding-bottom: 20px;
+    background-color: #ff990030;
+}
+.courses-img img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.courses-body {
+    padding: 10px 0 0 0;
+}
+.courses-body h2 {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    color: var(--black);
+}
+.courses-body p {
+    font-family: 'Poppins';
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+    color: #ff0000;
+}
+.courses-body p del {
+    font-family: 'Poppins';
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+    color: #00000094;
+}
+.courses-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.courses-button a {
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 500;
+    border: 1px solid var(--banner-button-background);
+    background-color: var(--banner-button-background);
+    color: var(--white);
+    padding: 10px 35px;
+    transition: all .5s ease;
+}
+.courses-button a:hover {
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 500;
+    border: 1px solid var(--banner-button-background);
+    background-color: var(--white);
+    color: var(--banner-button-background);
+    padding: 10px 35px;
+}
+/* ==================*** /inner-courses page css end ***==================== */
+
+/* ==================*** inner-single-courses page css start ***==================== */
+.inr-single-courses-section {
+    position: relative;
+    padding: 50px 0;
+}
+.single-courses-img img {
+    width: 100%;
+    height: auto;
+}
+.single-courses-content .single-course-title {
+    font-family: 'Poppins';
+    font-size: 30px;
+    font-weight: 700;
+}
+.single-courses-content p {
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 500;
+}
+.price-button-group {
+    padding: 20px 0;
+}
+.price-button-group .single-course-price {
+    font-family: 'Poppins';
+    font-size: 30px;
+    font-weight: 500;
+    color: #ff0000;
+}
+.price-button-group .price-button {
+    padding-top: 10px;
+}
+.price-button-group .price-button input {
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 500;
+    border: 1px solid var(--banner-button-background);
+    background-color: var(--banner-button-background);
+    color: var(--white);
+    padding: 10px 35px;
+    transition: all .5s ease;
+}
+.price-button-group .price-button :hover {
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 500;
+    border: 1px solid var(--banner-button-background);
+    background-color: transparent;
+    color: var(--banner-button-background);
+    padding: 10px 35px;
+}
+.single-course-details-chart h2 {
+    font-family: 'Poppins';
+    font-size: 30px;
+    font-weight: 700;
+}
+.single-course-details-chart table tr td {
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 500;
+}
+.single-course-note {
+    padding-top: 35px;
+}
+.single-course-note span {
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 700;
+    background-color: var(--banner-button-background);
+    color: var(--white);
+    text-transform: uppercase;
+    padding: 5px 10px;
+}
+.single-course-note h2 {
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 700;
+    color: #ff0000;
+}
+.single-course-details-content .single-course-details-title {
+    font-family: 'Poppins';
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.single-course-details-content .single-course-details-point {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+.single-course-details-content p {
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 500;
+}
+
+/* ==================*** /inner-single-courses page css end ***==================== */
+
+/* =================*** inner-register-course page css start ***==================== */
+.inr-register-section {
+    position: relative;
+    padding: 50px 0;
+}
+.register-card {
+    position: relative;
+    background-color: var(--banner-button-background);
+    padding: 50px;
+}
+.register-card:hover .straight-line {
+    width: 15vw;
+    height: 2px;
+    background-color: var(--white);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 16.5%;
+}
+.register-card .register-title-01 {
+    font-family: 'Poppins';
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+}
+.register-card .register-title-02 {
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.register-card .register-title-03 {
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 10px;
+}
+.pagkage .pagkage-title {
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+.pagkage ul {
+    list-style: square;
+}
+.pagkage ul li {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 500;
+}
+.straight-line {
+    width: 15vw;
+    height: 2px;
+    background-color: #ffffff69;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 16.5%;
+    transition: all .5s ease;
+}
+.register-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+}
+.register-button a {
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 500;
+    background-color: transparent;
+    border: 1px solid var(--white);
+    color: var(--white);
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+.register-button a:hover {
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 500;
+    background-color: transparent;
+    border: 1px solid var(--black);
+    color: var(--black);
+    padding: 8px 25px;
+}
+/* ==================*** /inner-register-course page css end ***==================== */
